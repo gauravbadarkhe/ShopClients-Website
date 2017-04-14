@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+.default-section .column {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bigger-title {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: justify;
+    margin: 0px;
+    color: #1a1a1a;
+}
+
+.text-column .text {
+    text-align: justify;
+}
+
+.text {
+    position: relative;
+    line-height: 2.2em;
+}
+
+.default-section {
+    position: relative;
+    padding: 30px 0px 20px;
+}
+
+.auto-container {
+    position: static;
+    max-width: 80%;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
