@@ -5,11 +5,20 @@ var isNavShowing;
 
 
 $(function() {
+
     $(".element").typed({
-        strings: ["Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to", "the Universe of", "your Clients Online!", "Welcome to ShopClients"],
+        strings: makeTyperArray(10),
         typeSpeed: 10
     });
 });
+
+function makeTyperArray(length){
+  var text=[];
+  for (var i = 0; i < length; i++) {
+  text.push.apply(text, ["Your ","One Stop","Business Development","Partner",]);
+  }
+  return text;
+}
 
 var stickyNav = function() {
     var scrollTop = $(window).scrollTop();

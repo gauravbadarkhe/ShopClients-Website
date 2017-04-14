@@ -963,6 +963,18 @@ form label span {
     text-align: left;
     color: grey;
     display: none;
+
+
+}
+
+.important{
+    color: black;
+    font-weight: normal;;
+}
+
+.section-current_projects .question{
+  font-weight: bold;
+    text-align: center;
 }
 
 .qtag {
@@ -1225,7 +1237,7 @@ button:hover {
 
 * {
     margin: 0px;
-    padding: 0px;
+
     border: none;
     outline: none;
 }
