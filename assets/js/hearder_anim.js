@@ -7,7 +7,7 @@ var isNavShowing;
 $(function() {
 
     $(".element").typed({
-        strings: makeTyperArray(100),
+        strings: makeTyperArray(1),
         typeSpeed: 10
     });
 });
@@ -15,7 +15,7 @@ $(function() {
 function makeTyperArray(length){
   var text=[];
   for (var i = 0; i < length; i++) {
-  text.push.apply(text, ["Welcome to", "the Universe of", "your Clients Online!"]);
+  text.push.apply(text, ["Welcome to the Universe of your Clients Online!"]);
   }
   return text;
 }
