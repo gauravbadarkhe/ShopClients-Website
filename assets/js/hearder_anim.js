@@ -7,7 +7,7 @@ var isNavShowing;
 $(function() {
 
     $(".element").typed({
-        strings: makeTyperArray(1),
+        strings: makeTyperArray(50),
         typeSpeed: 10
     });
 });
