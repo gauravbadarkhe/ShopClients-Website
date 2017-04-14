@@ -967,6 +967,10 @@ form label span {
 
 }
 
+.element{
+  padding-left: 10px;
+}
+
 .important{
     color: black;
     font-weight: normal;
